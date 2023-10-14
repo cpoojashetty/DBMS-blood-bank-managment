@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Account Page</title>
+  <style>
+    /* Set the background color and font */
+    body {
+      background-color: #F5F5F5;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style the logo and quote */
+    .logo {
+      width: 200px;
+      height: auto;
+      margin: 20px auto;
+    }
+    .quote {
+      text-align: center;
+      font-size: 36px;
+      font-style: italic;
+      padding: 50px;
+    }
+
+    /* Style the options */
+    .options {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .option {
+      width: 200px;
+      margin: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .option:hover {
+      background-color: #E0E0E0;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="" >
+  <div class="quote">
+    Through the below link you can change the password, delete account or even look into your history. Once you click on delete there is no going back!! Hope you have happy experience. Thank you!! 
+  </div>
+  <div>
+
+  </div>
+  <div class="options">
+ 
+    <div class="option" onclick="location.href='home.html'">
+      Logout
+    </div>
+    <div class="option" onclick="location.href='changePass.html'">
+      Change Password
+    </div>
+    <div class="option" onclick="location.href='http://localhost:8080/BloodBank/p_dis'">
+      History
+    </div>
+    <div class="option" onclick="location.href='http://localhost:8080/BloodBank/deleteaccount'">
+      Delete account
+    </div>
+  </div>
+</body>
+</html>
